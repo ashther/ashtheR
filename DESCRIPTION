@@ -8,3 +8,4 @@ Description: check attence status on map which created by leaflet.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 5.0.1
