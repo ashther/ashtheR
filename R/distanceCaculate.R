@@ -10,6 +10,8 @@
 #'
 #' @examples
 #' distanceCaculate(108.8821, 34.2341, 108.882, 34.2343)
+#' @export
+#'
 distanceCaculate <- function(lon_1, lat_1, lon_2, lat_2) {
   dx <- lon_1 - lon_2
   dy <- lat_1 - lat_2

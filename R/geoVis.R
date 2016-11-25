@@ -12,9 +12,14 @@
 #' settle by SQL store procedure on the remote server, if \code{ids} were
 #' provided, the circle represent ids will also been labeled as \code{status == 1}.
 #' blue circles indicate \code{status == 1}, and red ones indicate opposite.
+#'
+#' @export
+#' @importFrom dplyr %>% filter mutate
+#' @importFrom leaflet colorFactor leaflet addCircles addTiles
+#'
 attenceVis <- function(df, ids = NULL) {
-  require(dplyr)
-  require(leaflet)
+  # require(dplyr)
+  # require(leaflet)
 
   pal <- colorFactor(c("red", "blue"), domain = c(0, 1))
 
