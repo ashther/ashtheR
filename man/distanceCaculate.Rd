@@ -4,17 +4,22 @@
 \alias{distanceCaculate}
 \title{caculate distance}
 \usage{
-distanceCaculate(lon_1, lat_1, lon_2, lat_2)
+distanceCaculate(lon_1, lat_1, lon_2, lat_2, r = 6378137)
 }
 \arguments{
 \item{lon_1, lon_2}{numeric, degree longitude}
 
 \item{lat_1, lat_2}{numeric, degree latitude}
+
+\item{r}{earth radius from \code{geosphere} package}
+}
+\description{
+caculate the spherical distance between 2 point on earth
 }
 \details{
-caculate the spherical distance between 2 point on earth, although
-\code{geosphere::distHaversine} can caculate the spherical distance,
-\code{distanceCaculate} has about 10X speed than it and less than 0.2% error.
+although \code{geosphere::distHaversine} can caculate the spherical distance,
+\code{distanceCaculate} has about 20X-30X speed compare with it
+and less than 0.002% error.
 }
 \examples{
 distanceCaculate(108.8821, 34.2341, 108.882, 34.2343)

@@ -2,9 +2,13 @@ Package: attenceVis
 Type: Package
 Title: check attence status on map
 Version: 0.1.0
+Date: 2016-11-25
 Author: ashther
 Maintainer: ashther <ashther@qq.com>
 Description: check attence status on map which created by leaflet.
+Imports: 
+  dplyr,
+  leaflet
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
