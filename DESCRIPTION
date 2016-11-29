@@ -8,7 +8,8 @@ Maintainer: ashther <ashther@qq.com>
 Description: check attence status on map which created by leaflet.
 Imports: 
   dplyr,
-  leaflet
+  leaflet, 
+  magrittr
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
