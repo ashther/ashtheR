@@ -1,7 +1,7 @@
 Package: ashtheR
 Type: Package
 Title: check attence status on map
-Version: 0.1.0
+Version: 0.1.1
 Date: 2016-11-25
 Author: ashther
 Maintainer: ashther <ashther@qq.com>
