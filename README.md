@@ -1,3 +1,3 @@
-# attenceVis
+# ashtheR
 
-get pretty and clear students' geo information on map with leaflet
+some functions for general usage
