@@ -22,4 +22,3 @@ in this case.
 \seealso{
 scale
 }
-

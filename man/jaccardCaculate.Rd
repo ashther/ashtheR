@@ -16,4 +16,3 @@ caculate jaccard coefficient between two sets
 jaccard coefficient was caculated by the formula:
 \deqn{\frac{a\bigcap b}{a\bigcup b}}
 }
-

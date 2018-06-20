@@ -27,4 +27,3 @@ caculate two items(or users) jaccard coefficient as matrix cell value,
 between two items(or users) rated by one user(or item) as matrix cell value.
 }
 }
-

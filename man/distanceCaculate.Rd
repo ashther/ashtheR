@@ -18,10 +18,9 @@ caculate the spherical distance between 2 point on earth
 }
 \details{
 although \code{geosphere::distHaversine} can caculate the spherical distance,
-\code{distanceCaculate} has about 20X-30X speed compare with it
-and less than 0.002% error.
+\code{distanceCaculate} is about 20X-30X faster than that,
+and only has error less than 0.2\%.
 }
 \examples{
 distanceCaculate(108.8821, 34.2341, 108.882, 34.2343)
 }
-

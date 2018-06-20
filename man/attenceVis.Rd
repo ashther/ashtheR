@@ -22,4 +22,3 @@ settle by SQL store procedure on the remote server, if \code{ids} were
 provided, the circle represent ids will also been labeled as \code{status == 1}.
 blue circles indicate \code{status == 1}, and red ones indicate opposite.
 }
-

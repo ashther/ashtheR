@@ -6,11 +6,13 @@ Date: 2016-11-25
 Author: ashther
 Maintainer: ashther <ashther@qq.com>
 Description: check attence status on map which created by leaflet.
-Imports: 
+Imports:
   dplyr,
   leaflet, 
   magrittr
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
+Suggests:
+    testthat
